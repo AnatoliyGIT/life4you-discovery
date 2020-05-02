@@ -76,10 +76,10 @@
                 <version>1.0.0</version>
                 <configuration>
                     <appName>life4you-discovery</appName>
-                    <includeTarget>false</includeTarget>
-                    <includes>
-                        <include>target/${project.build.finalName}.jar</include>
-                    </includes>
+                    <includeTarget>true</includeTarget>
+<!--                    <includes>-->
+<!--                        <include>target/${project.build.finalName}.jar</include>-->
+<!--                    </includes>-->
                 </configuration>
             </plugin>
         </plugins>
