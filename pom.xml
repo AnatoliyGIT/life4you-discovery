@@ -76,7 +76,7 @@
                 <version>1.0.0</version>
                 <configuration>
                     <appName>life4you-discovery</appName>
-                    <includeTarget>true</includeTarget>
+                    <includeTarget>false</includeTarget>
 <!--                    <includes>-->
 <!--                        <include>target/${project.build.finalName}.jar</include>-->
 <!--                    </includes>-->
