@@ -2,7 +2,6 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-<<<<<<< HEAD
 
     <groupId>com.heroku</groupId>
     <artifactId>eureka-server-demo</artifactId>
@@ -19,79 +18,31 @@
         <relativePath />
     </parent>
 
-=======
-    <groupId>com.heroku</groupId>
-    <artifactId>service</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
-    <packaging>jar</packaging>
-
-    <parent>
-        <groupId>org.springframework.cloud</groupId>
-        <artifactId>spring-cloud-starter-parent</artifactId>
-        <version>Hoxton.SR4</version>
-        <!--        <version>Angel.SR6</version>-->
-        <relativePath/>
-    </parent>
-
->>>>>>> aebef48f3d9cd0b02b92bac2ff371264df3c400e
     <dependencies>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-eureka-server</artifactId>
-<<<<<<< HEAD
         </dependency>
-<!--        <dependency>-->
-<!--            <groupId>org.springframework.boot</groupId>-->
-<!--            <artifactId>spring-boot-starter-security</artifactId>-->
-<!--        </dependency>-->
-=======
-            <version>1.4.7.RELEASE</version>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-actuator</artifactId>
-        </dependency>
->>>>>>> aebef48f3d9cd0b02b92bac2ff371264df3c400e
+        <!--        <dependency>-->
+        <!--            <groupId>org.springframework.boot</groupId>-->
+        <!--            <artifactId>spring-boot-starter-security</artifactId>-->
+        <!--        </dependency>-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
-<<<<<<< HEAD
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-test</artifactId>
             <version>2.2.6.RELEASE</version>
             <scope>test</scope>
         </dependency>
-=======
-
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>io.springfox</groupId>
-            <artifactId>springfox-swagger2</artifactId>
-            <version>2.9.2</version>
-        </dependency>
-        <dependency>
-            <groupId>io.springfox</groupId>
-            <artifactId>springfox-swagger-ui</artifactId>
-            <version>2.9.2</version>
-        </dependency>
-
->>>>>>> aebef48f3d9cd0b02b92bac2ff371264df3c400e
     </dependencies>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-<<<<<<< HEAD
         <start-class>com.example.discovery.DiscoveryApplication</start-class>
-=======
-        <start-class>com.heroku.service.ServiceApplication</start-class>
->>>>>>> aebef48f3d9cd0b02b92bac2ff371264df3c400e
         <java.version>1.8</java.version>
     </properties>
 
@@ -100,7 +51,6 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
-<<<<<<< HEAD
                 <configuration>
                     <requiresUnpack>
                         <dependency>
@@ -113,8 +63,6 @@
                         </dependency>
                     </requiresUnpack>
                 </configuration>
-=======
->>>>>>> aebef48f3d9cd0b02b92bac2ff371264df3c400e
             </plugin>
             <plugin>
                 <artifactId>maven-deploy-plugin</artifactId>
@@ -127,17 +75,10 @@
                 <artifactId>heroku-maven-plugin</artifactId>
                 <version>1.0.0</version>
                 <configuration>
-<<<<<<< HEAD
                     <appName>discovery-life</appName>
                     <includeTarget>false</includeTarget>
                     <includes>
                         <include>target/${project.build.finalName}.jar</include>
-=======
-                    <appName>heroku.life4you-discovery</appName>
-                    <includeTarget>false</includeTarget>
-                    <includes>
-                        <include>target/${project.build.finalName}-${project.version}.jar</include>
->>>>>>> aebef48f3d9cd0b02b92bac2ff371264df3c400e
                     </includes>
                 </configuration>
             </plugin>
@@ -189,19 +130,4 @@
         </pluginRepository>
     </pluginRepositories>
 
-<<<<<<< HEAD
-=======
-    <dependencyManagement>
-        <dependencies>
-            <dependency>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-dependencies</artifactId>
-                <version>2.2.1.RELEASE</version>
-                <type>pom</type>
-                <scope>import</scope>
-            </dependency>
-        </dependencies>
-    </dependencyManagement>
-
->>>>>>> aebef48f3d9cd0b02b92bac2ff371264df3c400e
 </project>
