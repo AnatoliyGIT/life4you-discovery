@@ -70,9 +70,9 @@
             <plugin>
                 <groupId>com.heroku.sdk</groupId>
                 <artifactId>heroku-maven-plugin</artifactId>
-                <version>0.3.4</version>
+                <version>1.0.0</version>
                 <configuration>
-                    <appName>${heroku.appName}</appName>
+                    <appName>heroku.life4you-discovery</appName>
                     <includeTarget>false</includeTarget>
                     <includes>
                         <include>target/${project.build.finalName}-${project.version}.jar</include>
