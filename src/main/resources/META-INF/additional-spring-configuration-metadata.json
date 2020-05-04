@@ -1,0 +1,8 @@
+{
+  "properties": [
+    {
+      "name": "heroku.config.set${EUREKA_USER_PASSWORD}",
+      "type": "java.lang.String",
+      "description": "Description for heroku.config.set${EUREKA_USER_PASSWORD}."
+    }
+  ] }
